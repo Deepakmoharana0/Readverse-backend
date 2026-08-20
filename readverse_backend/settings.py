@@ -146,4 +146,8 @@ REST_FRAMEWORK = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://readverse-backend-production.up.railway.app",
+    "https://*.railway.app",
 ]
+
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
