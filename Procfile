@@ -1,0 +1,1 @@
+web: gunicorn readverse_backend.wsgi
